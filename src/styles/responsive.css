@@ -1,0 +1,78 @@
+/* MEDIA QUERY */
+
+@media screen and (min-width: 479px) {
+  nav {
+    padding: 1.5rem 2rem;
+  }
+  nav ul.open {
+    -webkit-transform: translate(-2rem, 12.5rem);
+    transform: translate(-2rem, 12.5rem);
+  }
+}
+
+@media screen and (min-width: 650px) {
+  nav {
+    padding: 1.5rem 1rem;
+  }
+  nav h1 {
+    font-size: 1.8rem;
+  }
+  nav .dropdown {
+    display: none;
+  }
+  nav ul.drawer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+    position: relative;
+    transform: translate(0, 0);
+    background-color: #0eeaa100;
+    padding: 0;
+  }
+  nav ul li {
+    margin-left: 1rem;
+    padding: 0;
+  }
+  nav ul li a {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  .restaurant > h1 {
+    font-size: 2.1rem;
+  }
+  .restaurant .card {
+    width: 28rem;
+  }
+  .restaurant .card img {
+    height: 15rem;
+  }
+  .restaurant .card .description {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 971px) {
+  nav ul li {
+    margin-left: 3rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  nav {
+    padding: 1.5rem 2rem;
+  }
+  .restaurant .card {
+    width: 30rem;
+    padding: 2rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .restaurant .card {
+    width: 35rem;
+    padding: 2rem;
+  }
+}
