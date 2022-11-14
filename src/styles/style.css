@@ -109,7 +109,7 @@ nav ul li a:hover {
 }
 
 .jumbotron img {
-  min-width: 100%;
+  width: 100%;
   height: 70vh;
   object-fit: cover;
 }

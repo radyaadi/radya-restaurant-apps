@@ -5,7 +5,7 @@ const createRestaurantItemTemplate = (restaurant) => `
       <div classs="city">
           <p class="city" tabindex="0">${restaurant.city}</p>
       </div>
-      <img class="lazyload" src="${CONFIG.BASE_IMAGE_URL}${
+      <img class="lazyload" data-src="${CONFIG.BASE_IMAGE_URL}${
   restaurant.pictureId
 }" alt="Restaurant Image" tabindex="0">
       <p class="rating" tabindex="0">Rating: ⭐️ ${restaurant.rating}</p>
